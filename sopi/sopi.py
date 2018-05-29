@@ -71,7 +71,7 @@ def downloadImages(jsonString):
 
 def create_dir_if_needed(directory):
   if not os.path.exists(directory):
-        os.makedirs(directory)
+    os.makedirs(directory)
 
 def enter(msg):
   log('\n')
@@ -91,7 +91,7 @@ def run():
     else:
       url = urlparse(sys.argv[1])
       if not url.scheme and not len(url.path.split('.')) > 2:
-        enter(tab() + "Your url input is incorrect.")
+        log_red(tab() + "Incorrect url.")
       else:
         run_download()
   else:
