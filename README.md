@@ -1,6 +1,6 @@
 # Shopee Image Downloader CLI
 
-This is an example to create command line application using python, this clie app inspired by [sopi](https://github.com/esafirm/sopi).
+This is an example to create command-line application using python, this clie app inspired by [sopi](https://github.com/esafirm/sopi).
 
 ## Installation
 
